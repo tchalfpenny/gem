@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# Gem
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application that harnesses the power of Google's Gemini 2.0 Flash to generate and modify images. Built with React Native and Expo, this app provides a seamless and intuitive interface for AI image generation and editing on the go.
 
-## Get started
+## Todo List
+- [ ] Set up basic React Native/Expo project structure
+- [ ] Implement user authentication flow
+  - [ ] Sign up screen
+  - [ ] Login screen
+  - [ ] Password reset functionality
+- [ ] Integrate Gemini 2.0 Flash API
+  - [ ] Set up API key management
+  - [ ] Implement image generation endpoints
+  - [ ] Implement image modification endpoints
+- [ ] Create main UI components
+  - [ ] Home screen
+  - [ ] Image generation form
+  - [ ] Image modification screen
+  - [ ] Gallery view
+- [ ] Implement local storage for image history
+- [ ] Add image sharing functionality
+- [ ] Set up error handling and loading states
+- [ ] Implement user settings and preferences
+- [ ] Add offline support
+- [ ] Optimize performance and image loading
+- [ ] Implement analytics and crash reporting
+- [ ] Add user feedback system
+- [ ] Prepare for app store submission
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- 🎨 Generate images using Gemini 2.0 Flash AI
+- 🖼️ Modify existing images with AI assistance
+- 📱 Native mobile experience for iOS and Android
+- ⚡ Fast and responsive image processing
+- 💾 Save generated images to your device
+- 🔄 History of previous generations
+- 📝 Customizable text prompts
 
-2. Start the app
+## What You Can Do
 
-   ```bash
-    npx expo start
-   ```
+### Image Generation
+- Create unique images from text descriptions
+- Control artistic styles and image composition through detailed prompts
 
-In the output, you'll find options to open the app in a
+### Image Modification
+- Upload existing images for AI-powered modifications
+- Enhance, transform, or reimagine your photos
+- Combine images with text prompts for creative transformations
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technology Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- Gemini 2.0 Flash API
+- AsyncStorage for local data persistence
 
-## Get a fresh project
+## Getting Started
 
-When you're ready, run:
+1. Install the app from the App Store or Google Play Store
+2. Launch the app
+3. Choose to generate a new image or modify an existing one
+4. Enter your text prompt or upload an image
+5. Watch as Gemini 2.0 Flash brings your imagination to life!
 
-```bash
-npm run reset-project
-```
+## How to Use
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### For New Image Generation
+1. Type your image description in the text input field
+2. Tap the "Generate" button
+3. Wait a few seconds while Gemini creates your image
 
-## Learn more
+### For Image Modification
+1. Select "Modify Image" option
+2. Upload your image from your device
+3. Add your modification instructions
+4. Tap "Transform" to see the results
 
-To learn more about developing your project with Expo, look at the following resources:
+### After Generation
+- Save or share your generated/modified images
+- View your creation history in the gallery
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Privacy & Data
 
-## Join the community
+Your prompts, uploaded images, and generated images are stored locally on your device. The app only communicates with Google's Gemini API to process images.
 
-Join our community of developers creating universal apps.
+## Support
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For issues, feature requests, or questions, please open an issue in this repository or contact our support team.
+
+## License
+
+[Your chosen license]
+
+---
+
+Made with ❤️ using React Native and Gemini 2.0 Flash
