@@ -1,0 +1,11 @@
+# packages
+node_modules/
+
+# expo
+.expo/
+expo-env.d.ts
+app-example/
+
+# macOS
+.DS_Store
+
