@@ -90,7 +90,7 @@ For issues, feature requests, or questions, please open an issue in this reposit
 
 ## License
 
-[Your chosen license]
+[MIT License](https://github.com/tchalfpenny/gem/blob/main/LICENSE)
 
 ---
 
