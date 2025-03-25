@@ -1,7 +1,6 @@
 import { Text, View } from "react-native";
-import { Link } from 'expo-router';
 
-export default function Index() {
+export default function Test() {
   return (
     <View
       style={{
@@ -12,8 +11,7 @@ export default function Index() {
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
       <Text>Hello World</Text>
-      <Text>Page 1</Text>
-      <Link href="/test">Go to page 2!</Link>
+      <Text>Page 2</Text>
     </View>
   );
 }
